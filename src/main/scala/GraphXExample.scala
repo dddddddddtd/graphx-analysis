@@ -192,11 +192,11 @@ object GraphXExample extends App {
   println(s"Bacon's relations: ${degreesBaconVertex.lookup(kevinBaconId).head}")
 
   // trzeba ogarnąć Zeppelin
-  //  val degreesAmazonDF = degreesAmazonVertex.toDF
-  //  degreesAmazonDF.createOrReplaceTempView("amazon")
+  //  val degreesBaconDF = degreesBaconVertex.toDF
+  //  degreesBaconDF.createOrReplaceTempView("bacon")
   //  %sql
   //    select `_2` as degree, count(*) as count
-  //  from `amazon`
+  //  from `bacon`
   //    group by `_2`
   //  order by count
 
